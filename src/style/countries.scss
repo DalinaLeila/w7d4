@@ -1,0 +1,22 @@
+.countries {
+    .header {
+        background-color: RGB(13, 121, 240);
+        padding: 25px;
+        color: #fff;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .content {
+        display: flex;
+    }
+
+    .list {
+        width: 30%;
+        padding: 25px;
+    }
+
+    .details {
+        width: 70%;
+        padding: 25px;
+    }
+}

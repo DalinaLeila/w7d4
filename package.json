@@ -1,7 +1,7 @@
 {
     "name": "w7d1",
     "version": "1.0.0",
-    "description": "",
+    "description": "This is better than create-react-app",
     "main": "index.js",
     "scripts": {
         "dev": "parcel src/index.html"
@@ -11,7 +11,9 @@
     "dependencies": {
         "moment": "^2.22.2",
         "react": "^16.5.0",
-        "react-dom": "^16.5.0"
+        "react-dom": "^16.5.0",
+        "react-router": "^4.3.1",
+        "react-router-dom": "^4.3.1"
     },
     "devDependencies": {
         "babel-core": "^6.26.3",

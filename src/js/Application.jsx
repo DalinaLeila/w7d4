@@ -1,13 +1,20 @@
 import React from 'react'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
-class Application extends React.Component {
-    render() {
-        return (
-            <div className="container">
-                <h1>Let's get started with React!</h1>
+import Countries from './Countries'
+import Products from './Products'
+
+const Application = () => {
+    return (
+        <BrowserRouter>
+            <div>
+                <Switch>
+                    <Route path="/products" component={Products} />
+                    <Route path="/countries" component={Countries} />
+                </Switch>
             </div>
-        )
-    }
+        </BrowserRouter>
+    )
 }
 
 export default Application
