@@ -6,13 +6,13 @@ const List = props => {
 
     const mappedCountries = countries.map(el => {
         return (
-            <Link key={el.cca3} to={`/countries/${el.cca3}`}>
-                <li className="country-item">
+            <li key={el.cca3} className="country-item">
+                <Link to={`/countries/${el.cca3}`}>
                     {el.flag}
                     &nbsp;
                     {el.name.common}
-                </li>
-            </Link>
+                </Link>
+            </li>
         )
     })
 
