@@ -17,7 +17,7 @@ class Countries extends Component {
                     <Route
                         path="/countries/:cc"
                         render={() => {
-                            return <Details />
+                            return <Details countries={countries} />
                         }}
                     />
                 </div>
